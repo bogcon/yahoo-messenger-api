@@ -1,0 +1,39 @@
+{
+    "name": "bogcon/yahoo-messenger-api",
+    "description": "A PHP client for Yahoo! Messenger API",
+    "type": "library",
+    "keywords": [
+        "yahoo",
+        "messenger",
+        "api",
+        "messaging"
+    ],
+    "homepage": "https://github.com/bogcon/yahoo-messenger-api",
+    "license": "New BSD License",
+    "authors": [
+        {
+            "name": "Bogdan Constantinescu",
+            "email": "{first3LettersFromFirstname}_{first3LettersFromLastname}@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "~4.1",
+        "phpunit/phpcov": "~2.0",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "BogCon\\YahooMessengerApi\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

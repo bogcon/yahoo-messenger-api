@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Unit testing configuratin file.
+ *
+ * @author    Bogdan Constantinescu <bog_con@yahoo.com>
+ * @copyright Copyright (c) 2013-2015 Bogdan Constantinescu
+ * @link      GitHub https://github.com/bogcon/yahoo-messenger-api
+ * @license   New BSD License (http://opensource.org/licenses/BSD-3-Clause);
+ *            see LICENSE.txt file that came along with this package.
+ */
+-->
+
+<phpunit bootstrap="Bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="yahoo-messenger-api">
+            <directory>./src</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

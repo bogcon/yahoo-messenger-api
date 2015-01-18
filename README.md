@@ -63,9 +63,7 @@ try {
 }
 ```  
 
-<p>  
 A simplistic browser based Yahoo Messenger chat that uses this library can be found [here](https://github.com/bogcon/webym).
-</p>
 
 Yahoo API documentation
 --------------------
